@@ -1,8 +1,8 @@
 # Praca_w_domu_zadana_24.11.2017
 
- <h1/>    #I - POZYCYJNE SYSTEMY LICZBOWE (2,8,10,16) <br><br>
+ <h1>#I - POZYCYJNE SYSTEMY LICZBOWE<h1> (2,8,10,16) <br><br>
 
-TEMAT 1 - SYSTEM DWÓJKOWY binarny (BIN)) (2) <br>
+TEMAT 1 - SYSTEM DWÓJKOWY binarny (BIN)) (2) <br><hr>
   Dwójkowy system liczbowy, system binarny – pozycyjny system liczbowy, w którym podstawą jest liczba 2. Do zapisu liczb potrzebne są tylko dwie cyfry: 0 i 1. <br>
   W systemie dwójkowym występują dwie cyfry: 0, 1. <br>
   Przykład : 0111(2) = 0*23 + 1*22 + 1*21 +1*20 = 0 + 4 + 2 + 1 = 7(10). => 0111 mają kolejno wagę od lewej 8, 4, 2, 1. Aby szybciej przeliczyć można wagi bitów oznaczonych 1 zsumować czyli od lewej 4+2+1 = 7. 
