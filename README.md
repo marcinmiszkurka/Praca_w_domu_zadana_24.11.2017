@@ -71,4 +71,6 @@ scanf ( ”%d” , &x );<br>
 printf( ”Podaj jedna liczbe rzeczywista i jeden znak: ”);<br>
 scanf ( ”%lf %c” , &y);<br>
  gdzie : & to operator adresowania. Zwraca adres zmiennej podanej po operatorze. 
-<p> <h1>III - FUNKCJA  scanf();</h1><hr><p>
+<p> <h1>IV - Liczby Fibonacciego;</h1><hr><p>
+  <p>Ciąg Fibonacciego to ciąg liczb, w którym pierwszy wyraz jest równy 0, drugi jest równy 1 a każdy następny jest sumą dwóch poprzednich.<p><br>
+    / F0=0<br>/ F1=1<br>/ Fn=(F n-1) + (F n-2)
