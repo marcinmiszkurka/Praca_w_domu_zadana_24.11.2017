@@ -9,7 +9,7 @@
   <br><br><br><p>
 <p>  TEMAT 2 - SYSTEM ÓSEMKOWY(oktalny(OKT)) (8)<br><hr>
  Ósemkowy system liczbowy - mamy osiem cyfr: 0, 1, 2,…,7 gdzie 0 liczone jest jako cyfra pierwsza. Podstawą systemu jest liczba 8. <br>
-  Przykład : 271(8) = (2*8 <sup>2<sup>) + (7*8 do pot 1) + (1*8 do pot 0) = 128 + 56 + 1 = 185(10)
+  Przykład : 271(8) = (2*8 do pot 2) + (7*8 do pot 1) + (1*8 do pot 0) = 128 + 56 + 1 = 185(10)
   <br><br><br><p>
 <p>  TEMAT 3 - SYSTEM DZIESIĘTNY (10) <br><hr>
     Dziesiętny system liczbowy to cyfry, którymi posługujemy się na codzień. 0,1,2,3,4,5,6,7,8,9,. POdstawą systemu dziesiętnego jest liczba 10.<br>
