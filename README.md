@@ -73,7 +73,7 @@ string   -    %s - ciąg znaków<br><p>
 Fynkcja scanf(); - korzysta z biblioteki stdio.h (stanardowa we/wy) i stdin.h (standardowy strumień wejścia). Można ją poprostu nazwać "Wprowadzanie danych z klawiatury kompytera".<p>
 Składa się z ("tekstu_sterującego" , adres_1 , adres_2 , . . . ). 
 <p>Tekst sterujący zapisywany jest w cudzysłowiach np: "%d", i odpowiada danym podanym w funkcji printf(); <br>np: printf("Podaj liczbę całkowitą",zmienna, zmienna);<br>wiadomo, że użyjemy dla liczby całkowitej %d.
- Zmienną w tym przypadku można podać <br>np: int x; , a kolejną <br>  np: double y; , a więc mamy pełen zapis<br>int x;<br
+ Zmienną w tym przypadku można podać <br>np: int x; , a kolejną <br>  np: double y; , a więc mamy pełen zapis<br>int x;<br>
 double y;<br>
 printf( ”Podaj jedna liczbe calkowita: ” );<br>
 scanf ( ”%d” , &x );<br>
