@@ -41,7 +41,7 @@
     1). Z systemu dziesiętnego (10) do systemu dwójkowego (2) <br>
     2). Z systemu dwójkowego (2) do szesnastkowego (16)<br><p> 
  
- <p> TEMAT 1 - (10 DO 2)<br><hr>
+ <p> TEMAT 1 - (10 do 2)<br><hr>
  
  Konwersja, czyli zamiana liczby dziesiętnej na system binarny odbywa się metodą dzielenia, lub można skorzystać z tablicy jeżeli mamy do czynienia z liczbami od 0 do 15. większe liczby trzeba policzyć korzystając z poniższego przykładu. 
  Dla liczby 16:<p> <br>
@@ -50,4 +50,10 @@
   4/2 = 2 reszty 0 wpisujemy ] 0, i analogicznie<br>
   2/2 = 1 reszty 1 wpisujemy ] 0 <br>
   zostaje 1        wpisujemy ] 1 (jeden podzielić na 2 to zawsze jest 0,5 a więc zostaje reszta, a jak reszta to 1)<br>
-  Teraz wystarczy od dołu do góry sczytać liczby i kolejno je zapisać. Mamy 10000(2). 
+  Teraz wystarczy od dołu do góry sczytać liczby i kolejno je zapisać. Mamy 10000(2). <br>
+ 
+ <p>TEMAT 2 - (2 do 16)<br><hr><p>
+ 
+ <p>Konwersja liczby binarnej do szesnastkowej odbywa sę po przez dzielenie liczby binarnej na cztery bitu, a następnie korzystając z tablicy ( zadanie I Temat 4) odczytujemy i podstawiamy właściwe wartości. <br>
+ Przykład :  365(10) = 101101101(2)<br>
+ od lewej do prawej dzielimy co cztery bity. Wynik to 1 0110 1101. Jak widać liczba 1 jest sama, jest jeden bit. Aby było czytelniej, czyli jak zostało wspomina 4 bity można dodać na początku pozostałe trzy. Będzie więc 0001 0110 1101. Korzystając z tablicy wypisujemy wynik tj, 16D<br><p>
