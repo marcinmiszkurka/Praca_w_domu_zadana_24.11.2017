@@ -2,20 +2,20 @@
 
  <p>   <h1> I - POZYCYJNE SYSTEMY LICZBOWE (2,8,10,16) <br><p></h1>
 
-<p><h3>TEMAT 1 - SYSTEM DWÓJKOWY (binarny (BIN) ) (2) </h3><br><hr>
+<p><h3>TEMAT 1 - SYSTEM DWÓJKOWY (binarny (BIN) ) (2) </h3><hr>
   Dwójkowy system liczbowy, system binarny – pozycyjny system liczbowy, w którym podstawą jest liczba 2. Do zapisu liczb potrzebne są tylko dwie cyfry: 0 i 1. <br>
   W systemie dwójkowym występują dwie cyfry: 0, 1. <br>
   <p>Przykład : 0111(2) = 0*23 + 1*22 + 1*21 +1*20 = 0 + 4 + 2 + 1 = 7(10) <br><p> => 0111 mają kolejno wagę od lewej 8, 4, 2, 1. Aby szybciej przeliczyć można wagi bitów oznaczonych 1 zsumować czyli od lewej 4+2+1 = 7. 
   <br><br><br><p>
-<p>  <h3>TEMAT 2 - SYSTEM ÓSEMKOWY (oktalny (OKT) ) (8)</h3><br><hr>
+<p>  <h3>TEMAT 2 - SYSTEM ÓSEMKOWY (oktalny (OKT) ) (8)</h3><hr>
  Ósemkowy system liczbowy - mamy osiem cyfr: 0, 1, 2,…,7 gdzie 0 liczone jest jako cyfra pierwsza. Podstawą systemu jest liczba 8. <br>
   Przykład : 271(8) = (2*8 do pot 2) + (7*8 do pot 1) + (1*8 do pot 0) = 128 + 56 + 1 = 185(10)
   <br><br><br><p>
-<p>  <h3>TEMAT 3 - SYSTEM DZIESIĘTNY (10)</h3> <br><hr>
+<p>  <h3>TEMAT 3 - SYSTEM DZIESIĘTNY (10)</h3><hr>
     Dziesiętny system liczbowy to cyfry, którymi posługujemy się na co dzień. 0,1,2,3,4,5,6,7,8,9,. Podstawą systemu dziesiętnego jest liczba 10.<br>
   Przykład : 156 = (1*10 do pot 2) + (5*10 do pot 1) + (6*10 do pot 0) = 100 + 50 + 6 = 156
 <br><br><br><p>
-<p><h3> TEMAT 4 - system szesnastkowy (heksegalny (HEX)) (16)</h3><br><hr>
+<p><h3> TEMAT 4 - system szesnastkowy (heksegalny (HEX)) (16)</h3><hr>
     Szesnastkowy system liczbowy opiera się na cyfrach i literach od 0-9 i od A-F (wszystkich 16) gdzie każdej cyfrze przyporządkowano cztery cyfry w systemie 01. i tak. <br><p>
     <p>0 - 0000 -- 0<br>
     1 - 0001 -- 1<br>
@@ -41,7 +41,7 @@
     1). Z systemu dziesiętnego (10) do systemu dwójkowego (2) <br>
     2). Z systemu dwójkowego (2) do szesnastkowego (16)<br><p> 
  
- <p> <h3>TEMAT 1 - (10 do 2)</h3><br><hr>
+ <p> <h3>TEMAT 1 - (10 do 2)</h3><hr>
  
  Konwersja, czyli zamiana liczby dziesiętnej na system binarny odbywa się metodą dzielenia, lub można skorzystać z tablicy jeżeli mamy do czynienia z liczbami od 0 do 15. większe liczby trzeba policzyć korzystając z poniższego przykładu. 
  Dla liczby 16:<p> <br>
@@ -52,13 +52,13 @@
   zostaje 1        wpisujemy ] 1 (jeden podzielić na 2 to zawsze jest 0,5 a więc zostaje reszta, a jak reszta to 1)<br>
   Teraz wystarczy od dołu do góry sczytać liczby i kolejno je zapisać. Mamy 10000(2). <br>
  
- <p><h3>TEMAT 2 - (2 do 16)</h3><br><hr><p>
+ <p><h3>TEMAT 2 - (2 do 16)</h3><hr><p>
  
  <p>Konwersja liczby binarnej do szesnastkowej odbywa sę po przez dzielenie liczby binarnej na cztery bitu, a następnie korzystając z tablicy ( zadanie I Temat 4) odczytujemy i podstawiamy właściwe wartości. <br>
  Przykład :  365(10) = 101101101(2)<br>
  od lewej do prawej dzielimy co cztery bity. Wynik to 1 0110 1101. Jak widać liczba 1 jest sama, jest jeden bit. Aby było czytelniej, czyli jak zostało wspomina 4 bity można dodać na początku pozostałe trzy. Będzie więc 0001 0110 1101. Korzystając z tablicy wypisujemy wynik tj, 16D<br><p>
   
-<p> <h1>II - FUNKCJA  scanf();</h1><br><p>
+<p> <h1>II - FUNKCJA  scanf();</h1><hr><p>
  TABELA
 <p>Typ   -   Format <br>
 char   -    %c <br>
