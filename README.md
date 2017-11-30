@@ -37,7 +37,7 @@
       Przykład : E7(16) = (D*16 do pot 1)+(7*16do pot 0) = (14*16)+(7*16) = 336(10)<br><p>
        
        
- <p> <h1>II - KONWERSJA </h1><br>
+ <p> <h1>II - KONWERSJA (10 =>2; 2=>16)</h1><br>
     1). Z systemu dziesiętnego (10) do systemu dwójkowego (2) <br>
     2). Z systemu dwójkowego (2) do szesnastkowego (16)<br><p> 
  
@@ -57,3 +57,18 @@
  <p>Konwersja liczby binarnej do szesnastkowej odbywa sę po przez dzielenie liczby binarnej na cztery bitu, a następnie korzystając z tablicy ( zadanie I Temat 4) odczytujemy i podstawiamy właściwe wartości. <br>
  Przykład :  365(10) = 101101101(2)<br>
  od lewej do prawej dzielimy co cztery bity. Wynik to 1 0110 1101. Jak widać liczba 1 jest sama, jest jeden bit. Aby było czytelniej, czyli jak zostało wspomina 4 bity można dodać na początku pozostałe trzy. Będzie więc 0001 0110 1101. Korzystając z tablicy wypisujemy wynik tj, 16D<br><p>
+  
+<p> <h1>II - FUNKCJA  scanf();</h1><br><p>
+ TABELA
+<p>Typ   -   Format <br>
+char   -    %c <br>
+short   -    %hd<br>
+int   -    %d or %i - liczba całkowta dziesiętna<br>
+long   -    %ld  <br>
+long   -    long %lld <br>
+float   -    %f or %e - liczba zmiennopozycyjna<br>
+double   -    %lf or %le<br>
+long double   -    %Lf or %Le<br>
+string   -    %s - ciąg znaków<br><p>
+Fynkcja scanf(); - korzysta z biblioteki stdio.h (stanardowa we/wy) i stdin.h (standardowy strumień wejścia). Można ją poprostu nazwać "Wprowadzanie danych z klawiatury kompytera" <b>
+ Składa się z ("tekstu_sterującego" , adres_1 , adres_2 , . . . ). 
