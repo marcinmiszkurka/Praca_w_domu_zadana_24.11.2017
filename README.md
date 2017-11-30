@@ -1,6 +1,6 @@
 <p># Praca_w_domu_zadana_24.11.2017<p>
 
- <p><h1>     I - POZYCYJNE SYSTEMY LICZBOWE<h1> (2,8,10,16) <br><p>
+ <p>    I - POZYCYJNE SYSTEMY LICZBOWE (2,8,10,16) <br><p>
 
 <p>TEMAT 1 - SYSTEM DWÓJKOWY binarny (BIN)) (2) <br><hr>
   Dwójkowy system liczbowy, system binarny – pozycyjny system liczbowy, w którym podstawą jest liczba 2. Do zapisu liczb potrzebne są tylko dwie cyfry: 0 i 1. <br>
