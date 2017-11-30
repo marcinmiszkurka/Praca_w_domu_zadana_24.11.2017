@@ -70,5 +70,5 @@ float   -    %f or %e - liczba zmiennopozycyjna<br>
 double   -    %lf or %le<br>
 long double   -    %Lf or %Le<br>
 string   -    %s - ciąg znaków<br><p>
-Fynkcja scanf(); - korzysta z biblioteki stdio.h (stanardowa we/wy) i stdin.h (standardowy strumień wejścia). Można ją poprostu nazwać "Wprowadzanie danych z klawiatury kompytera" <b>
- Składa się z ("tekstu_sterującego" , adres_1 , adres_2 , . . . ). 
+Fynkcja scanf(); - korzysta z biblioteki stdio.h (stanardowa we/wy) i stdin.h (standardowy strumień wejścia). Można ją poprostu nazwać "Wprowadzanie danych z klawiatury kompytera".<p>
+Składa się z ("tekstu_sterującego" , adres_1 , adres_2 , . . . ). 
