@@ -73,4 +73,23 @@ scanf ( ”%lf %c” , &y);<br>
  gdzie : & to operator adresowania. Zwraca adres zmiennej podanej po operatorze. 
 <p> <h1>IV - Liczby Fibonacciego;</h1><hr><p>
   <p>Ciąg Fibonacciego to ciąg liczb, w którym pierwszy wyraz jest równy 0, drugi jest równy 1 a każdy następny jest sumą dwóch poprzednich.<p><br>
-    / F0=0<br>/ F1=1<br>/ Fn=(F n-1) + (F n-2)
+    / F0=0<br>/ F1=1<br>/ Fn=(F n-1) + (F n-2) <br>
+    <p>#include <stdio.h> <br>
+<br>
+long fib(int n) <br>
+{ <br>
+if ((n==0)||(n==1)) <br>
+return 1; <br>
+else <br>
+return (fib(n-1) + fib(n-2)); <br>
+} <br>
+<br>
+int main() <br>
+{ <br>
+int n;<br> 
+printf("Podaj numer wyrazu ciagu Fibonacciego"); <br>
+scanf("%d", &n); <br>
+long b = fib( n ); <br>
+printf("N-ty wyraz ciagu Fibonacciego wynosi %lf",b); <br>
+scanf("%d%", n); <br>
+}<p>
